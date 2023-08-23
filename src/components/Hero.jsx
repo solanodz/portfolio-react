@@ -2,10 +2,11 @@ import fotoHero from '../assets/fotoCV-cuadrada.jpg'
 import { FaCss3Alt, FaHtml5, FaReact, FaBootstrap, FaSass, FaGithub } from "react-icons/fa"
 import { IoLogoJavascript } from "react-icons/io"
 import { SiTailwindcss } from "react-icons/si"
+import { Link } from 'react-scroll'
 
 const Hero = () => {
     return (
-        <div className='flex flex-col justify-start mt-40 items-center bg-black h-screen text-white'>
+        <div id='inicio' className='flex flex-col justify-start sm:mt-40 items-center bg-black h-screen text-white'>
             <div className='flex sm:flex-row items-start sm:pl-9 flex-col'>
                 <img src={fotoHero} alt="foto perfil" className='h-56 sm:h-80 rounded-full my-6 sm:mr-12' />
                 <div className='flex flex-col'>
@@ -23,10 +24,9 @@ const Hero = () => {
                             <FaGithub className='px-1 text-primary text-5xl sm:text-6xl mt-2 rounded-full p-3' />
                         </div>
                     </div>
-                    {/* Linkear estos botones a las secciones del sitio */}
                     <div className='flex justify-start items-center w-full pl-2 sm:mt-12'>
-                        <button className='bg-secondary border-2 border-secondary py-2 px-7 font-medium m-2 rounded-md sm:py-3 sm:w-fit hover:bg-accent hover:border-accent duration-200'>Contactame</button>
-                        <button className='bg-accent border-2 border-accent py-2 px-7 font-medium m-2 rounded-md sm:py-3 sm:w-fit hover:bg-black hover:text-accent duration-200'>Portfolio</button>
+                        <Link to="contactame" smooth={true} duration={500} className='bg-secondary border-2 border-secondary py-2 px-7 font-medium m-2 rounded-md sm:py-3 sm:w-fit hover:bg-accent hover:border-accent duration-200'>Contactame</Link>
+                        <Link to="portfolio" smooth={true} duration={500} className='bg-accent border-2 border-accent py-2 px-7 font-medium m-2 rounded-md sm:py-3 sm:w-fit hover:bg-black hover:text-accent duration-200'>Portfolio</Link>
                     </div>
                 </div>
             </div>

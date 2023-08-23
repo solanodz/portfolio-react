@@ -3,9 +3,10 @@ import { FaPaperPlane, FaPhoneAlt, FaInstagram, FaGithub, FaLinkedin } from "rea
 
 const Contactame = () => {
     return (
-        <div className="text-white flex flex-col md:flex-row sm:justify-between text-left my-12 sm:mx-24">
+        <div id="contactame" className="text-white flex flex-col md:flex-row sm:justify-between text-left my-12 sm:mx-24">
             <div className="flex flex-col text-left sm:w-1/2">
                 <h1 className="text-white font-poppins font-semibold text-left p-2 rounded-md text-4xl sm:text-5xl mb-6">¡Contactame!</h1>
+                {/* HACER EL CVVVVVVV */}
                 {/* Poner CV descargable y link a email */}
                 <p className="flex flex-row items-center"><FaPaperPlane className="text-primary m-3" />sdezuasnabar@gmail.com</p>
                 <p className="flex flex-row items-center"><FaPhoneAlt className="text-primary m-3" /> +54 381 664 0456</p>

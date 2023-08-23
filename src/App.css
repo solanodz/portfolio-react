@@ -5,4 +5,5 @@
   text-align: center;
   font-family: "Italic", sans-serif;
   background-color: black;
+  scroll-behavior: smooth;
 }

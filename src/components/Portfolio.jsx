@@ -7,8 +7,7 @@ import { HiArrowNarrowRight } from "react-icons/hi"
 
 const Portfolio = () => {
     return (
-        <div className="font-poppins sm:my-20 sm:mx-10 sm:px-10 mt-20 h-fit">
-            <h1 className="text-primary font-poppins font-semibold text-left p-2 rounded-md text-4xl sm:text-6xl">Portfolio</h1>
+        <div id="portfolio" className="font-poppins sm:my-20 sm:mx-10 sm:px-10 mt-20 h-fit">
             <div className="text-white flex flex-col md:flex-row sm:justify-between text-left my-8">
                 <div className="sm:w-3/4">
                     <h2 className="font-semibold text-3xl sm:text-6xl">Birdie Golfshop</h2>
@@ -19,7 +18,6 @@ const Portfolio = () => {
                     </div>
                 </div>
                 <div className="hover:rotate-6 hover:origin-bottom-right duration-300 cursor-pointer" >
-                    {/* instalar react-router-dom para reemplazar <a /> por <Link /> */}
                     <a href="#">
                         <img src={birdieSinFondo} alt="Birdie Golfshop" className="w-fit" />
                     </a>
@@ -42,7 +40,7 @@ const Portfolio = () => {
 
             </div>
 
-            <div className="text-white flex flex-col md:flex-row sm:justify-between text-left my-8">
+            {/* <div className="text-white flex flex-col md:flex-row sm:justify-between text-left my-8">
                 <div className="sm:w-3/4">
                     <h2 className="font-semibold text-3xl sm:text-6xl">sz.dev Blog</h2>
                     <p className="text-lg">Blog personal.</p>
@@ -56,7 +54,7 @@ const Portfolio = () => {
                         <img src={birdieSinFondo} alt="Birdie Golfshop" className="w-fit" />
                     </a>
                 </div>
-            </div>
+            </div> */}
         </div>
     )
 }
