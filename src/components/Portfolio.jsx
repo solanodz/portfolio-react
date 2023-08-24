@@ -1,8 +1,6 @@
 // import birdie from "../assets/"
-import birdie from "../assets/birdie-confondo.png"
 import todoSinFondo from "../assets/todo-sinfondo.png"
 import birdieSinFondo from "../assets/birdie-sinfondo.png"
-import birdieSinFondo13 from "../assets/birdie-sinfondo-1-3.png"
 import { HiArrowNarrowRight } from "react-icons/hi"
 
 const Portfolio = () => {
