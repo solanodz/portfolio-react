@@ -35,24 +35,7 @@ const Portfolio = () => {
                         <img src={todoSinFondo} alt="Birdie Golfshop" className="w-fit" />
                     </a>
                 </div>
-
             </div>
-
-            {/* <div className="text-white flex flex-col md:flex-row sm:justify-between text-left my-8">
-                <div className="sm:w-3/4">
-                    <h2 className="font-semibold text-3xl sm:text-6xl">sz.dev Blog</h2>
-                    <p className="text-lg">Blog personal.</p>
-                    <div className="flex flex-row items-center hover:text-primary duration-300 cursor-pointer">
-                        <a href="#" className="">Ir al sitio</a>
-                        <HiArrowNarrowRight className="mx-3 text-2xl" />
-                    </div>
-                </div>
-                <div className="hover:rotate-6 hover:origin-bottom-right duration-300 cursor-pointer" >
-                    <a href="#">
-                        <img src={birdieSinFondo} alt="Birdie Golfshop" className="w-fit" />
-                    </a>
-                </div>
-            </div> */}
         </div>
     )
 }

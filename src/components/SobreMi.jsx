@@ -1,6 +1,5 @@
 import dibujo from "../assets/Hand coding-amico.svg"
 
-
 const SobreMi = () => {
     return (
         <div>
