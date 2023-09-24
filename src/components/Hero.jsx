@@ -6,7 +6,7 @@ import { Link } from 'react-scroll'
 
 const Hero = () => {
     return (
-        <div id='inicio' className='flex flex-col justify-start sm:mt-40 items-center bg-black h-screen text-white'>
+        <div id='inicio' className='flex flex-col justify-start sm:mt-40 items-center bg-black mb-48 text-white'>
             <div className='flex sm:flex-row items-start sm:pl-9 flex-col'>
                 <img src={fotoHero} alt="foto perfil" className='h-56 sm:h-80 rounded-full my-6 sm:mr-12' />
                 <div className='flex flex-col'>
@@ -31,10 +31,6 @@ const Hero = () => {
                 </div>
             </div>
             <div className='flex flex-col my-1'>
-
-                <div className='flex flex-col items-start w-full'>
-
-                </div>
             </div>
         </div>
 

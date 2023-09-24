@@ -14,6 +14,10 @@ const Portfolio = () => {
                         <a href="#" className="">Ir al sitio</a>
                         <HiArrowNarrowRight className="mx-3 text-2xl" />
                     </div>
+                    <div className="flex flex-row items-center hover:text-primary duration-300 cursor-pointer">
+                        <a href="https://github.com/solanodz/birdie-golfshop.git" className="">Ir al repositorio</a>
+                        <HiArrowNarrowRight className="mx-3 text-2xl" />
+                    </div>
                 </div>
                 <div className="hover:rotate-6 hover:origin-bottom-right duration-300 cursor-pointer" >
                     <a href="#">
@@ -27,6 +31,10 @@ const Portfolio = () => {
                     <p className="text-lg">Web app para ingresar tareas a realizar, marcar como completadas o eliminar.</p>
                     <div className="flex flex-row items-center hover:text-primary duration-300 cursor-pointer">
                         <a href="https://sz-dev-to-do-app.vercel.app/" className="">Ir al sitio</a>
+                        <HiArrowNarrowRight className="mx-3 text-2xl" />
+                    </div>
+                    <div className="flex flex-row items-center hover:text-primary duration-300 cursor-pointer">
+                        <a href="https://github.com/solanodz/to-do-app.git" className="">Ir al repositorio</a>
                         <HiArrowNarrowRight className="mx-3 text-2xl" />
                     </div>
                 </div>

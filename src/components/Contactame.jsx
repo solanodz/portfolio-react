@@ -11,13 +11,13 @@ const Contactame = () => {
     return (
         <div
             id="contactame"
-            className="text-white flex flex-col md:flex-row sm:justify-between text-left my-12 sm:mx-24"
+            className="text-white bg-black p-8 flex text-center flex-col md:flex-row sm:justify-between items-center my-24 sm:mx-24"
         >
-            <div className="flex flex-col text-left sm:w-1/2">
+            <div className="flex flex-col text-center items-center mx-auto">
                 <h1 className="text-white font-poppins font-semibold text-left p-2 rounded-md text-4xl sm:text-5xl mb-6">
                     ¡Contactame!
                 </h1>
-                <p className="flex flex-row items-center">
+                <p className="flex flex-row sm:items-center">
                     <FaPaperPlane className="text-primary m-3" />
                     sdezuasnabar@gmail.com
                 </p>
@@ -43,7 +43,7 @@ const Contactame = () => {
                     Descargar CV
                 </a>
             </div>
-            <form className="flex flex-col sm:w-1/2">
+            {/* <form className="flex flex-col sm:w-1/2">
                 <input
                     type="text"
                     className="my-2 w- p-2 pl-4 bg-secondary rounded-lg"
@@ -67,7 +67,7 @@ const Contactame = () => {
                 <button className="bg-secondary border-2 border-secondary py-2 px-7 font-medium my-2 rounded-md sm:py-3 hover:bg-accent hover:border-accent duration-200 w-fit">
                     Enviar
                 </button>
-            </form>
+            </form> */}
         </div>
     );
 };
