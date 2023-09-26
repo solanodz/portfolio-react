@@ -17,7 +17,7 @@ const Portfolio = () => {
                     </Reveal>
                     <Reveal>
                         <div className="flex flex-row items-center hover:text-accent duration-300 cursor-pointer">
-                            <a href="#" className="">Ir al sitio</a>
+                            <a href="https://birdie-golfshop.vercel.app/" className="">Ir al sitio</a>
                             <HiArrowNarrowRight className="mx-3 text-2xl" />
                         </div>
                     </Reveal>
@@ -31,7 +31,7 @@ const Portfolio = () => {
                 </div>
                 <Reveal>
                     <div className="hover:rotate-6 hover:origin-bottom-right duration-300 cursor-pointer" >
-                        <a href="#">
+                        <a href="https://birdie-golfshop.vercel.app/">
                             <img src={birdieSinFondo} alt="Birdie Golfshop" className="w-fit" />
                         </a>
                     </div>
