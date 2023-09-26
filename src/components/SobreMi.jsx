@@ -16,11 +16,11 @@ const SobreMi = () => {
                 <div className="flex flex-col justify-around mt-12 sm:flex-row">
                     <Reveal>
                         <div className='flex flex-col items-start my-4  md:1/2'>
-                            <a href="/public/downloads/EF SET Certificate.pdf" target="_blank" className='bg-accent text-white text-center border-2 border-accent py-2 px-7 text-sm font-medium my-1 rounded-md sm:py-3 w-full hover:bg-black hover:text-accent duration-200'>Nivel de Inglés - EFSET</a>
-                            <a href="/public/downloads/Desarrollo_Web_Coderhouse.png" target="_blank" className='bg-accent text-white text-center border-2 border-accent py-2 px-7 text-sm font-medium my-1 rounded-md sm:py-3 w-full hover:bg-black hover:text-accent duration-200'>Desarrollo Web - Coderhouse</a>
-                            <a href="/public/downloads/javascript.png" target="_blank" className='bg-accent text-white text-center border-2 border-accent py-2 px-7 text-sm font-medium my-1 rounded-md sm:py-3 w-full hover:bg-black hover:text-accent duration-200'>JavaScript - Coderhouse</a>
-                            <a href="/public/downloads/react.png" target="_blank" className='bg-accent text-white text-center border-2 border-accent py-2 px-7 text-sm font-medium my-1 rounded-md sm:py-3 w-full hover:bg-black hover:text-accent duration-200'>React - Coderhouse</a>
-                            <a href="/public/downloads/front-end-certificado.png" target="_blank" className='bg-accent text-white text-center border-2 border-accent py-2 px-7 text-sm font-medium my-1 rounded-md sm:py-3 w-full hover:bg-black hover:text-accent duration-200'>Desarrollador Front-end - Coderhouse</a>
+                            <a href="/public/downloads/EF SET Certificate.pdf" download target="_blank" className='bg-accent text-white text-center border-2 border-accent py-2 px-7 text-sm font-medium my-1 rounded-md sm:py-3 w-full hover:bg-black hover:text-accent duration-200'>Nivel de Inglés - EFSET</a>
+                            <a href="/public/downloads/Desarrollo_Web_Coderhouse.png" download target="_blank" className='bg-accent text-white text-center border-2 border-accent py-2 px-7 text-sm font-medium my-1 rounded-md sm:py-3 w-full hover:bg-black hover:text-accent duration-200'>Desarrollo Web - Coderhouse</a>
+                            <a href="/public/downloads/javascript.png" target="_blank" download className='bg-accent text-white text-center border-2 border-accent py-2 px-7 text-sm font-medium my-1 rounded-md sm:py-3 w-full hover:bg-black hover:text-accent duration-200'>JavaScript - Coderhouse</a>
+                            <a href="/public/downloads/react.png" target="_blank" download className='bg-accent text-white text-center border-2 border-accent py-2 px-7 text-sm font-medium my-1 rounded-md sm:py-3 w-full hover:bg-black hover:text-accent duration-200'>React - Coderhouse</a>
+                            <a href="/public/downloads/front-end-certificado.png" download target="_blank" className='bg-accent text-white text-center border-2 border-accent py-2 px-7 text-sm font-medium my-1 rounded-md sm:py-3 w-full hover:bg-black hover:text-accent duration-200'>Desarrollador Front-end - Coderhouse</a>
                         </div>
                     </Reveal>
                     <Reveal>
