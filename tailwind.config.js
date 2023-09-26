@@ -10,7 +10,7 @@ export default {
       "gray": "#20262E",
       "white": "#ffffff",
       "black": "#000000",
-      "primary": "#72CECE",
+      // "accent": "#72CECE",
       "secondary": "#3C434B",
       "accent": "#43B17A"
     },
