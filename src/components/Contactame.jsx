@@ -7,6 +7,7 @@ import {
     FaLinkedin,
 } from "react-icons/fa";
 import Reveal from "./Reveal";
+import cv from '/de-zuasnabar-CV-frontend.pdf'
 
 const Contactame = () => {
     return (
@@ -43,10 +44,7 @@ const Contactame = () => {
             </Reveal>
             <Reveal>
                 <div className="text-left m-3 mt-6 bg-accent w-fit px-6 py-3 rounded-lg border-2 border-accent hover:bg-black hover:text-accent duration-200">
-                    <a
-                        href="/public/downloads/cv-deZuasnabar-front-end.pdf"
-                        target="_blank"
-                    >
+                    <a href={cv} target="_blank" >
                         Descargar CV
                     </a>
                 </div>
