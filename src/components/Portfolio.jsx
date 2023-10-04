@@ -17,13 +17,13 @@ const Portfolio = () => {
                     </Reveal>
                     <Reveal>
                         <div className="flex flex-row items-center hover:text-accent duration-300 cursor-pointer">
-                            <a href="https://birdie-golfshop.vercel.app/" className="">Ir al sitio</a>
+                            <a href="https://birdie-golfshop.vercel.app/" target='_blank' className="">Ir al sitio</a>
                             <HiArrowNarrowRight className="mx-3 text-2xl" />
                         </div>
                     </Reveal>
                     <Reveal>
                         <div className="flex flex-row items-center hover:text-accent duration-300 cursor-pointer">
-                            <a href="https://github.com/solanodz/birdie-golfshop.git" className="">Ir al repositorio</a>
+                            <a href="https://github.com/solanodz/birdie-golfshop.git" target='_blank' className="">Ir al repositorio</a>
                             <HiArrowNarrowRight className="mx-3 text-2xl" />
                         </div>
                     </Reveal>
@@ -31,7 +31,7 @@ const Portfolio = () => {
                 </div>
                 <Reveal>
                     <div className="hover:rotate-6 hover:origin-bottom-right duration-300 cursor-pointer" >
-                        <a href="https://birdie-golfshop.vercel.app/">
+                        <a href="https://birdie-golfshop.vercel.app/" target='_blank'>
                             <img src={birdieSinFondo} alt="Birdie Golfshop" className="w-fit" />
                         </a>
                     </div>
@@ -47,20 +47,20 @@ const Portfolio = () => {
                     </Reveal>
                     <Reveal>
                         <div className="flex flex-row items-center hover:text-accent duration-300 cursor-pointer">
-                            <a href="https://sz-dev-to-do-app.vercel.app/" className="">Ir al sitio</a>
+                            <a href="https://easy-notes-react.vercel.app/" target='_blank' className="">Ir al sitio</a>
                             <HiArrowNarrowRight className="mx-3 text-2xl" />
                         </div>
                     </Reveal>
                     <Reveal>
                         <div className="flex flex-row items-center hover:text-accent duration-300 cursor-pointer">
-                            <a href="https://github.com/solanodz/to-do-app.git" className="">Ir al repositorio</a>
+                            <a href="https://github.com/solanodz/easy-notes-react.git/" target='_blank' className="">Ir al repositorio</a>
                             <HiArrowNarrowRight className="mx-3 text-2xl" />
                         </div>
                     </Reveal>
                 </div>
                 <Reveal>
                     <div className="hover:rotate-6 hover:origin-bottom-right duration-300 cursor-pointer" >
-                        <a href="https://sz-dev-to-do-app.vercel.app/">
+                        <a href="https://easy-notes-react.vercel.app/" target='_blank' >
                             <img src={easyNotesSinFondo} alt="Easy Notes" className="w-fit border-3 " />
                         </a>
                     </div>
